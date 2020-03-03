@@ -13,6 +13,11 @@ namespace PaymentContext.Domain.ValueObjects
             {
                 AddNotification("Name.FirstName", "Nome Inválido");
             }
+
+            if(string.IsNullOrEmpty(LastName))
+            {
+                AddNotification("Name.LastName", "Sobrenome Inválido");
+            }
         }
 
         public string FirstName { get; private set; }
