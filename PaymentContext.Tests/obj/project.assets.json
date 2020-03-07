@@ -6932,7 +6932,7 @@
       "PaymentContext.Domain >= 1.0.0",
       "PaymentContext.Shared >= 1.0.0",
       "coverlet.collector >= 1.0.1",
-      "flunt"
+      "flunt >= 1.0.4"
     ]
   },
   "packageFolders": {
@@ -6995,7 +6995,7 @@
           },
           "flunt": {
             "target": "Package",
-            "version": "(, )"
+            "version": "[1.0.4, )"
           }
         },
         "imports": [
@@ -7013,7 +7013,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
