@@ -8,9 +8,15 @@ namespace PaymentContext.Tests
     public class StudentTests
     {
         [TestMethod]
-        public void AdicionarAssinatura()
+        public void ShouldReturnErrorWhenHadActiveSubscription()
         {
-            
+            Assert.Fail();
+        }
+
+        [TestMethod]
+        public void ShouldReturnSuccessWhenHadNoActiveSubscription()
+        {
+            Assert.Fail();
         }
     }
 }
